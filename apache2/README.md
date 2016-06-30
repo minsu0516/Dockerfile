@@ -25,3 +25,10 @@
 
 	ProxyPass / http://tomcat9/
 
+# 윈도우기반의 이클립스 에서 셀 스크립터 작성시 
+	Eclipse > Help > Install New software...
+	
+	Name: ShellEd
+	Location: http://sourceforge.net/projects/shelled/files/shelled/update/
+
+	 ^M 삭제  

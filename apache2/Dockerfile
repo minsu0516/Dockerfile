@@ -25,7 +25,7 @@ RUN mkdir /app
 RUN mkdir /conf
 
 ADD run.sh /run.sh
-ADD index.html /app
+ADD index.html /app/
 ADD proxy.conf /conf
 
 RUN chmod 755 /*.sh
@@ -34,4 +34,6 @@ EXPOSE 80
 EXPOSE 433
 
 WORKDIR /app
+
+
 CMD ["/run.sh"]
